@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family:"Merienda", cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 0 10px 0;
+}
+
+#bday-date {
+    margin:10px;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: 5px dotted;
+    margin: 50px 400px 10px 400px;
+}
+
+.text{
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+    width: 200px;
+    margin: 0px auto;
+}
+
+.thiep {
+    display: none;
+    font-family: "Mali", cursive;
+    font-size:large;
+    width: 800px;
+    margin: 0px auto;
+    font-weight: bold;
+}
+
+.text:hover + .thiep{
+    display: block;
+}
